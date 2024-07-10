@@ -16,6 +16,11 @@ console.log(typeScore.type); //displays the type number
 function checkScore () {
    // console.info(score.value) //linked to our button
 
+        audio1.pause();
+        audio2.pause();
+        audio3.pause();
+        audio4.pause();
+        audio5.pause();
    
    if (typeScore.value== '') {
     console.log('Invalid');
