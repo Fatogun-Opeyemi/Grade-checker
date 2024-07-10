@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: inline-flex;
+}
+
+#sectionForImage{
+    /* border: 2px solid red; */
+
+}
+#sectionForCalculation{
+    border: 2px solid #ff0000;
+    margin-left: 3vw;
+    padding: 5vw;
+}
+
+#muslimimg{
+    width: 40vw;
+}
+
+#checkYourGradeBelow{
+    font-size: 2.7rem;
+    color: saddlebrown;
+}
+
+#typeScore{
+    width: 50%;
+    padding: 0.3rem;
+    margin: 1.5rem;
+    border-radius: 3px;
+    border: 2px solid dimgray;
+}
+::placeholder{
+    color: rgb(215, 146, 17);
+}
+
+#submitScore{
+    width: 50%;
+    padding: 0.3rem;
+    margin: 0rem 0rem 0rem 1.5rem;
+    background-color:  rgb(215, 146, 17);
+    border: none ;
+    border-radius: 3px;
+}
+
+#paragraghForDisplay{
+    font-size: 1.5rem;
+    margin: 1.3rem 0rem 0rem 1.5rem;
+    color: saddlebrown;
+}
+
+@media screen and (max-width:1200px) {
+
+    html{
+        overflow-y: hidden;
+    }
+
+    #sectionForCalculation{
+        border: 2px solid #ff0000;
+        margin-left: -2vw;
+        padding: 2vw;
+    }
+
+    #muslimimg{
+        width: 60vw;
+    }
+
+    #checkYourGradeBelow{
+        font-size: 0.8rem;
+        color: saddlebrown;
+    }
+
+    #typeScore{
+        width: 70%;
+    }
+
+    ::placeholder{
+        color: rgb(215, 146, 17);
+        font-size: 0.6rem;
+    }
+
+    #submitScore{
+        width: 68%;
+    }
+
+    #paragraghForDisplay{
+        font-size: 0.8rem;
+        margin: 1.3rem 0rem 0rem 1.5rem;
+        color: saddlebrown;
+    }
+    
+}
