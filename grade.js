@@ -23,34 +23,41 @@ function checkScore () {
         audio5.pause();
    
    if (typeScore.value== '') {
-    console.log('Invalid');
-    paragraghForDisplay.innerHTML = 'Invalid'
+    console.log('Invalid. Please input a score from 0-100');
+    paragraghForDisplay.innerHTML = 'Invalid, Please input a score from 0-100'
    }
    else if (typeScore.value>=0 && typeScore.value < 40 ) {
     console.log('Your grade is F')
     paragraghForDisplay.innerHTML = 'F'
+    paragraghForDisplay.style.marginLeft = '28%'
     audio1.play()
 }else if (typeScore.value >= 40 && typeScore.value < 50) {
     console.log('Your grade is D')
     paragraghForDisplay.innerHTML = 'D'
+    paragraghForDisplay.style.marginLeft = '28%'
+
     audio2.play()
 }else if (typeScore.value >= 50 && typeScore.value < 60) {
     console.log('Your grade is C')
     paragraghForDisplay.innerHTML = 'C'
+    paragraghForDisplay.style.marginLeft = '28%'
+
     audio3.play()
 }else if (typeScore.value >= 60 && typeScore.value < 70) {
     console.log('Your grade is B')
     paragraghForDisplay.innerHTML = 'B'
+    paragraghForDisplay.style.marginLeft = '28%'
+
     audio4.play()
 }else if (typeScore.value >= 70 && typeScore.value <= 100) {
     console.log('Your grade is A')
     paragraghForDisplay.innerHTML = 'A'
-    paragraghForDisplay.style.margin = '1vw'
+    paragraghForDisplay.style.marginLeft = '28%'
     audio5.play()
 }
 else {
-    console.log('Input an actual score')
-    paragraghForDisplay.innerHTML = 'Input an actual score'
+    console.log('Input a score from 0-100')
+    paragraghForDisplay.innerHTML = 'Input a score from 0-100'
 }
 
 typeScore.value = '' // to clear d input

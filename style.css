@@ -8,6 +8,10 @@ main{
     display: inline-flex;
 }
 
+article{
+    display: flex;
+}
+
 #sectionForImage{
     /* border: 2px solid red; */
 
@@ -33,6 +37,8 @@ main{
     margin: 1.5rem;
     border-radius: 3px;
     border: 2px solid dimgray;
+    caret: saddlebrown;
+    caret-color: saddlebrown;
 }
 ::placeholder{
     color: rgb(215, 146, 17);
@@ -53,44 +59,244 @@ main{
     color: saddlebrown;
 }
 
-@media screen and (max-width:1200px) {
+#marq{
+    /* margin-top: 90vh; */
+    display: none;
+    /* width: 100vw; */
 
-    html{
-        overflow-y: hidden;
+}
+
+code{
+    /* padding-top: 100vh; */
+    display: none;
+}
+
+@media (min-width:300px ) and (max-width:480px) {
+    article{
+        display: flex;
+        flex-direction:column;
+        gap: 0vh;
+        flex-grow: 1;
+        flex-shrink: 1;
+        /* justify-content: center;
+        align-items: center; */
     }
 
-    #sectionForCalculation{
-        border: 2px solid #ff0000;
-        margin-left: -2vw;
-        padding: 2vw;
+    #sectionForImage{
+        /* border: 2px solid red; */
+        margin-top: 1vh;
+    
     }
-
+    
     #muslimimg{
-        width: 60vw;
-    }
-
-    #checkYourGradeBelow{
-        font-size: 0.8rem;
-        color: saddlebrown;
+        width: 70%;
     }
 
     #typeScore{
         width: 70%;
+        height: 2.3rem;
     }
 
     ::placeholder{
         color: rgb(215, 146, 17);
-        font-size: 0.6rem;
+        font-size: 0.9rem;
     }
 
     #submitScore{
         width: 68%;
+        font-size: 0.9rem;
+        height: 2.3rem;
+
     }
 
     #paragraghForDisplay{
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin: 1.3rem 0rem 0rem 1.5rem;
         color: saddlebrown;
     }
     
+    #sectionForCalculation{
+        border: 2px solid #ff0000;
+        margin-left: 0vw;
+        padding: 5vw;
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    #sectionForCalculation>p{
+        font-size: 1.3rem;
+
+    }
+    
+    #marq{
+        display: block;
+        font-size: 1.4rem;
+        color: saddlebrown;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    code{
+        margin-top: 80vh;
+        display: block;
+        margin-left: -100vw;
+        /* margin-left: -30vw; */
+        padding-top: 16.5vh;
+        position: sticky;
+        bottom: 0px;
+    }
+}
+
+@media (min-width:481px ) and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    article{
+        display: flex;
+        flex-direction:column;
+        gap: 0vh;
+        flex-grow: 1;
+        flex-shrink: 1;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    #sectionForImage{
+        /* border: 2px solid red; */
+        margin-top: 0.6vh;
+        width: 100vw;
+        height: 63vh;
+    
+    }
+    
+    #muslimimg{
+        width: 87%;
+        height: 67vh;
+        margin-top: -2.0vh;
+    }
+
+    #typeScore{
+        width: 70%;
+        height: 3.2rem;
+    }
+
+    ::placeholder{
+        color: rgb(215, 146, 17);
+        font-size: 1.6rem;
+    }
+
+    #submitScore{
+        width: 70%;
+        font-size: 1.6rem;
+        height: 3.2rem;
+
+
+    }
+
+    #paragraghForDisplay{
+        font-size: 1.7rem;
+        margin: 1.3rem 0rem 0rem 1.5rem;
+        color: saddlebrown;
+    }
+    
+    #sectionForCalculation{
+        border: 2px solid saddlebrown;
+        margin-left: 0vw;
+        padding: 5vw;
+        width: 100%;
+        margin-top: 1vh;
+        height: 29.9vh;
+    }
+
+    #sectionForCalculation>p{
+        font-size: 2.3rem;
+
+    }
+    
+    #marq{
+        display: block;
+        font-size: 2.3rem;
+        color: saddlebrown;
+    }
+}
+
+@media (min-width:769px ) and (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    article{
+        display: flex;
+        flex-direction:column;
+        gap: 0vh;
+        flex-grow: 1;
+        flex-shrink: 1;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    #sectionForImage{
+        /* border: 2px solid red; */
+        margin-top: 0.6vh;
+        width: 100vw;
+        height: 63vh;
+    
+    }
+    
+    #muslimimg{
+        width: 87%;
+        height: 67vh;
+        margin-top: -2.0vh;
+    }
+
+    #typeScore{
+        width: 70%;
+        height: 3.2rem;
+    }
+
+    ::placeholder{
+        color: rgb(215, 146, 17);
+        font-size: 1.6rem;
+    }
+
+    #submitScore{
+        width: 70%;
+        font-size: 1.6rem;
+        height: 3.2rem;
+
+
+    }
+
+    #paragraghForDisplay{
+        font-size: 1.7rem;
+        margin: 1.3rem 0rem 0rem 1.5rem;
+        color: saddlebrown;
+    }
+    
+    #sectionForCalculation{
+        border: 2px solid saddlebrown;
+        margin-left: 0vw;
+        padding: 5vw;
+        width: 100%;
+        margin-top: 1vh;
+        height: 29.9vh;
+    }
+
+    #sectionForCalculation>p{
+        font-size: 2.3rem;
+
+    }
+    
+    #marq{
+        display: block;
+        font-size: 2.3rem;
+        color: saddlebrown;
+    }
 }
