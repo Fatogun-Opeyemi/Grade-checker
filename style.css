@@ -116,10 +116,10 @@ code{
     }
     
     #sectionForCalculation{
-        border: 2px solid #ff0000;
-        margin-left: 0vw;
+        border: 2px solid saddlebrown;
+        margin-left: 1.8%;
+        width: 95%;
         padding: 5vw;
-        width: 100%;
         margin-top: 5vh;
     }
 
@@ -207,9 +207,9 @@ code{
     
     #sectionForCalculation{
         border: 2px solid saddlebrown;
-        margin-left: 0vw;
+        margin-left: 1.8%;
+        width: 95%;
         padding: 5vw;
-        width: 100%;
         margin-top: 1vh;
         height: 29.9vh;
     }
@@ -282,9 +282,9 @@ code{
     
     #sectionForCalculation{
         border: 2px solid saddlebrown;
-        margin-left: 0vw;
+        margin-left: 1.8%;
+        width: 95%;
         padding: 5vw;
-        width: 100%;
         margin-top: 1vh;
         height: 29.9vh;
     }
